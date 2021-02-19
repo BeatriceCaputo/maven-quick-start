@@ -21,7 +21,7 @@ public class ApplicationTest {
     }
 
     @Test
-    public void  () {
+    public void testWordCountEmpty() {
         int count = app.countWords("");
         assertTrue(count == 0);
     }
